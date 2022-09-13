@@ -17,7 +17,7 @@
 #include "Context.h"
 #include "UserGeom.h"
 
-#include <optix_function_table_definition.h>
+#include <optix7/optix_function_table_definition.h>
 
 #define LOG(message)                            \
   if (Context::logging())                       \

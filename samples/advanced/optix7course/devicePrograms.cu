@@ -14,7 +14,7 @@
 // limitations under the License.                                           //
 // ======================================================================== //
 
-#include <optix_device.h>
+#include <optix7/optix_device.h>
 #include <cuda_runtime.h>
 
 #include "LaunchParams.h"

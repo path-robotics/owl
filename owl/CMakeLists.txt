@@ -14,7 +14,9 @@
 # limitations under the License.                                           #
 # ======================================================================== #
 
-find_package(OptiX REQUIRED)
+find_package(optix7 REQUIRED COMPONENTS optix7core)
+add_library(OptiX ALIAS optix7::optix7core)
+add_library(OptiX::OptiX ALIAS optix7::optix7core)
 
 add_library(owl)
 

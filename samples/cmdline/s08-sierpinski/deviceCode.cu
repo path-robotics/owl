@@ -15,7 +15,7 @@
 // ======================================================================== //
 
 #include "deviceCode.h"
-#include <optix_device.h>
+#include <optix7/optix_device.h>
 
 using namespace owl;
 

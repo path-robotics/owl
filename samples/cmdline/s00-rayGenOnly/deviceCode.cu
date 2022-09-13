@@ -18,7 +18,7 @@
 // this shader. The pixel location is simply translated into a checkerboard pattern.
 
 #include "deviceCode.h"
-#include <optix_device.h>
+#include <optix7/optix_device.h>
 
 // OPTIX_RAYGEN_PROGRAM() is a simple macro defined in deviceAPI.h to add standard
 // code for defining a shader method.

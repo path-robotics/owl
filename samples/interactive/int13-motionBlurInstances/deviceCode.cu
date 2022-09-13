@@ -15,7 +15,7 @@
 // ======================================================================== //
 
 #include "deviceCode.h"
-#include <optix_device.h>
+#include <optix7/optix_device.h>
 #include <owl/common/math/random.h>
 
 typedef owl::common::LCG<4> Random;

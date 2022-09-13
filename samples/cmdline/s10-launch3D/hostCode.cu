@@ -26,7 +26,7 @@
 #include "stb/stb_image_write.h"
 
 #include <random>
-#include <optix_device.h>
+#include <optix7/optix_device.h>
 
 #define LOG(message)                                            \
   std::cout << OWL_TERMINAL_BLUE;                               \

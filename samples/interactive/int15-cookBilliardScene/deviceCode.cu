@@ -16,7 +16,7 @@
 
 #include "deviceCode.h"
 #include "helpers.h"
-#include <optix_device.h>
+#include <optix7/optix_device.h>
 #include <owl/common/math/random.h>
 
 extern "C" __constant__ LaunchParams optixLaunchParams;

@@ -18,7 +18,7 @@
 
 #include <cuda.h>
 #include <driver_types.h>
-#include <optix.h>
+#include <optix7/optix.h>
 
 #include <sys/types.h>
 #include <stdint.h>

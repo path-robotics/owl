@@ -20,7 +20,7 @@
 #include "owl/common/math/box.h"
 // the 'actual' optix
 #include <cuda.h>
-#include <optix.h>
+#include <optix7/optix.h>
 
 // ==================================================================
 // actual device-side "API" built-ins.
